@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 const useCounter = (forwards = true) => {
   const [counter, setCounter] = useState(0);
 
